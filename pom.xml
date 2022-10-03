@@ -20,6 +20,16 @@
 		<version>5.2.22.RELEASE</version>
     </dependency>
   </dependencies>
+	<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+
+        </plugins>
+    </build>
   <build>
     <finalName>01-maven-web-app</finalName>
   </build>
