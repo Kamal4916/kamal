@@ -20,6 +20,19 @@
 		<version>5.2.22.RELEASE</version>
     </dependency>
   </dependencies>
+	<distributionManagement>  
+	<repository>
+		<id>nexus</id>
+		<name>kamal release nexus repo</name>
+		<url>http://15.206.69.213:8081/repository/kamal-release-repo/</url>
+	</repository>
+	
+	<snapshotRepository>
+		<id>nexus</id>
+		<name>kamal Snapshots Nexus Repo</name>
+		<url>http://15.206.69.213:8081/repository/kamal-snapsoht-repo/</url>
+	</snapshotRepository>	
+</distributionManagement>
 	<build>
         <plugins>
             <plugin>
